@@ -1,0 +1,21 @@
+## install npm for Mac
+
+ $ gcc --version
+
+ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+ $ brew doctor
+
+ $brew update.
+
+
+ Solved: “npm: command not found” (3.11.2014)
+After upgrading to OS X Yosemite I noticed that my npm (installed using brew) didn’t work anymore. I tried to check the PATH variable and double-checked that I have my npm installed. This all seemed to be fine.
+
+Then I decided to try the trick that has worked with somewhat all of my past npm-related issues: I deleted ~/.npm folder. It worked. So here’s what I did.
+
+cd ~
+sudo rm -rf .npm
+brew update
+brew uninstall npm
+brew install npm
