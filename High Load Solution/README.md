@@ -45,3 +45,21 @@ http://blog.csdn.net/mycwq/article/details/17136001
 Amazon Aurora 通过将数据库引擎与为数据库工作负载构建的基于 SSD 的虚拟化存储层紧密集成，使性能大幅超过 MySQL，从而减少至存储系统的写入操作，最大程度降低锁竞争并消除数据库进程线程所产生的延迟。我们根据 SysBench 对 r3.8xlarge 实例进行的测试表明，Amazon Aurora 每秒提供超过 500,000 次选择和 100,000 次更新，是在同一硬件上运行相同基准的 MySQL 的 5 倍。有关此基准的详细说明以及如何自行复制此基准，请参阅 Amazon Aurora 性能基准指南。
 问：如何优化 Amazon Aurora 的数据库工作负载？
 由于 Amazon Aurora 与 MySQL 5.6 兼容，因此现有 MySQL 应用程序和工具无需修改即可运行。然而，Amazon Aurora 优于 MySQL 的一个地方就是具有大量并行工作负载。为了在 Amazon Aurora 上最大限度地提高您的工作负载吞吐量，我们建议您构建自己的应用程序来支持大量并行查询。
+
+
+
+
+##Web Server Management-->REST Commander
+<img src="restcommander_workflow_2.png">
+<img src="restcommander_workflow.png">
+http://www.restcommander.com/index.html
+
+https://raw.githubusercontent.com/eBay/restcommander/master/README.md
+
+Monitor and Manage 10 - 100,000 Web Servers.
+
+What is REST Commander? It is a parallel async http client, like Postman at scale.
+
+It is a scalable, high performance yet agile tool (HTTP client as a service) for managing, configing, and rescuing large amount of web servers.
+
+And many more use cases... Whenever comes to sending multiple HTTP requests in parallel, federated data aggregation or scalable task executions on HTTP, Think Commander First.
