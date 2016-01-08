@@ -54,3 +54,50 @@ Hashtable、HashMap都使用了 Iterator。而由于历史原因，Hashtable还�
 第六
 
 Hashtable和HashMap它们两个内部实现方式的数组的初始大小和扩容的方式。HashTable中hash数组默认大小是11，增加的方式是 old*2+1。HashMap中hash数组的默认大小是16，而且一定是2的指数。 
+
+
+
+
+
+
+
+
+
+
+
+
+
+In-memory sorting:
+
+http://www.tutorialspoint.com/java/java_treemap_class.htm
+
+The TreeMap class implements the Map interface by using a tree. A TreeMap provides an efficient means of storing key/value pairs in sorted order, and allows rapid retrieval.
+
+You should note that, unlike a hash map, a tree map guarantees that its elements will be sorted in ascending key order.
+
+Below given is the list of the constructors supported by the TreeMap class.
+
+
+
+Program: How to sort keys in TreeMap by using Comparator with user define objects?
+http://www.java2novice.com/java-collections-and-util/treemap/comparator-user-object/
+
+TreeMap sort-by-value:
+http://stackoverflow.com/questions/2864840/treemap-sort-by-value
+
+
+
+
+http://www.programcreek.com/2013/03/hashmap-vs-treemap-vs-hashtable-vs-linkedhashmap/
+
+
+
+
+http://www.javamadesoeasy.com/2015/04/treemap-vs-concurrentskiplistmap.html
+
+
+
+
+
+
+
