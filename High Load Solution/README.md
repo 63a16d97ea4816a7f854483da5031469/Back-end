@@ -63,3 +63,11 @@ What is REST Commander? It is a parallel async http client, like Postman at scal
 It is a scalable, high performance yet agile tool (HTTP client as a service) for managing, configing, and rescuing large amount of web servers.
 
 And many more use cases... Whenever comes to sending multiple HTTP requests in parallel, federated data aggregation or scalable task executions on HTTP, Think Commander First.
+
+
+
+
+##In-memory solution:
+
+Caching System.
+
