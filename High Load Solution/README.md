@@ -70,4 +70,8 @@ And many more use cases... Whenever comes to sending multiple HTTP requests in p
 ##In-memory solution:
 
 Caching System.
+#####TreeMap
 
+http://www.javamadesoeasy.com/2015/04/treemap-vs-concurrentskiplistmap.html
+
+http://www.java2novice.com/java-collections-and-util/treemap/comparator-user-object/
